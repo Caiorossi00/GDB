@@ -1,0 +1,59 @@
+nav {
+  background-color: #fff;
+  background-color: black;
+}
+
+.nav-itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 32px;
+  min-height: 10vh;
+  margin: 0 5%;
+}
+
+.logo img {
+  height: 30px;
+  color: white;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.icons a {
+  margin-left: 20px;
+  color: white;
+}
+
+body {
+  background: radial-gradient(
+    circle at center,
+    #f0f0f0,
+    #d0d0d0
+  ); /* Example gradient */
+}
+
+.background-overlay {
+  /* Create a div for the overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black */
+  backdrop-filter: blur(5px); /* Add blur (adjust value as needed) */
+}
